@@ -1,5 +1,5 @@
 :root{
-    --primario-color: #f5ce52;
+    --primario-color: #111111;
 
 }
 *{
@@ -22,7 +22,7 @@ body{
     margin: 50% 0;
     width: 600px;
     height: 700px;
-    background-color: #ccc;
+    background-color: #cccccc4c;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@ body{
 
 .btn{
     color: black;
-    background-color: var(--primario-color);
+    background-color: rgb(24, 107, 24);
     cursor: pointer;
     border-radius: 5px;
     font-size: 12px;
@@ -62,7 +62,7 @@ body{
 
 .moneda select{
     padding: 10px 20px 10px 10px;
-    border: 1px solid #dedede;
+    border: 1px solid var(--primario-color);
 
     -moz-appearance: none;
     -webkit-appearance: none;
